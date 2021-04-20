@@ -4,9 +4,10 @@
 <img src="./asset/add.png" width="100" alt="Flutter icon" title=" and ">
 <img src="./asset/gg.png" width="100" alt="Flutter icon" title=" Google ">
  </p>
+ 
 
-## Preparation
-### 1. Install Flutter:
+# ![Preparation](https://via.placeholder.com/15/00ff005/000000?text=+) `Preparation`
+## 1. Install Flutter:
 You must have a working Flutter installed, if not, follow instruction here to get it ready: [Flutter installation guide](https://flutter.dev/docs/get-started/install)
 
 ## 2. Create a new flutter project in **VS Code**:
@@ -31,3 +32,14 @@ and run this command:
 Copy this line to the header of file:
 
 > import 'package:google_sign_in/google_sign_in.dart';
+
+
+# ![Create app](https://via.placeholder.com/15/00ff005/000000?text=+) `Create app`
+Replace the default main file (Counter App) with those code lines: [Sign_in code](https://pub.dev/packages/google_sign_in/example) 
+```diff
+- NOTE: This app will not properly run at this point!
+```
+
+
+# ![App integration](https://via.placeholder.com/15/00ff005/000000?text=+) `App integration`
+## 1. Register your app with Google service:
