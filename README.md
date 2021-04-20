@@ -1,5 +1,5 @@
 # SIMPLE GOOGLE LOG IN - FLUTTER APP
-<p float="left">
+<p float="left" align="center">
 <img src="./asset/flutter.png" width="100" alt="Flutter icon" title="Flutter">
 <img src="./asset/add.png" width="100" alt="Flutter icon" title=" and ">
 <img src="./asset/gg.png" width="100" alt="Flutter icon" title=" Google ">
@@ -42,4 +42,12 @@ Replace the default main file (Counter App) with those code lines: [Sign_in code
 
 
 ## ![App integration](https://via.placeholder.com/15/00ff005/000000?text=+) `App integration`
-### 1. Register your app with Google service:
+### 1. Add a project to Firebase:
+
+* Open Firebase page: [Firebase link](https://firebase.google.com/?platform=android)
+
+* Click **Get started**
+<p align="center"><img src="./asset/started.PNG" width="400" alt="Get started" title=""></p>
+
+* Click **Add project**
+<p align="center"><img src="./asset/addproject.PNG" width="400" alt="Add project" title=""></p>
