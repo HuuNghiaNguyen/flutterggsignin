@@ -60,3 +60,47 @@ Replace the default main file (Counter App) with those code lines: [Sign_in code
 
 * Choose account and click **Create project**
 <p align="center"><img src="./asset/step3.PNG" width="400" alt="Step 3" title=""></p>
+
+* Choose desired platform to continue
+<p align="center"><img src="./asset/step4.PNG" width="400" alt="Step 4" title=""></p>
+
+### 2. Customize config:
+#### Register app:<br>
+* **Andoird package name** : Your android app name
+* **Debug signing certificate SHA-1**: Your app hash code, you can obtain one by run command:
+
+> $ keytool -list -v \-alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
+
+<p align="center"><img src="./asset/step5.PNG" width="400" alt="Step 5" title=""></p>
+
+#### Download config file
+Download and save **google-services.json** file to **android** folder
+
+#### Add firebase SDK to project:
+Copy those code to **build.gradle** (in project folder):<br>
+
+> buildscript {<br>
+> &nbsp;&nbsp;&nbsp;&nbsp; repositories {<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;    // Check that you have the following line (if not, add it):<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;    google()  // Google's Maven repository<br>
+>  }<br>
+>  dependencies {<br>
+>  &nbsp;&nbsp;&nbsp;&nbsp;   ...<br>
+>  &nbsp;&nbsp;&nbsp;&nbsp;   // Add this line<br>
+>  &nbsp;&nbsp;&nbsp;&nbsp;   classpath 'com.google.gms:google-services:4.3.5'<br>
+>  }<br>
+> }<br>
+> <br>
+> &nbsp;&nbsp;&nbsp;&nbsp; allprojects {<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;  ...<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;  repositories {<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;    // Check that you have the following line (if not, add it):<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;    google()  // Google's Maven repository<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;    ...<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;  }<br>
+> }<br>
+
+#### Resync project by run this code:
+> cd android .\gradlew --refresh-dependencies
+
+## ![Build project and enjoy!](https://via.placeholder.com/15/00ff005/000000?text=+) `Build project and enjoy!`
