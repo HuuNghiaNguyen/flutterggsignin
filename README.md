@@ -51,3 +51,12 @@ Replace the default main file (Counter App) with those code lines: [Sign_in code
 
 * Click **Add project**
 <p align="center"><img src="./asset/addproject.PNG" width="400" alt="Add project" title=""></p>
+
+* Type **Project name** and click **Continue**
+<p align="center"><img src="./asset/step1.PNG" width="400" alt="Step 1" title=""></p>
+
+* (Optional) Enable **Enable Google Analytics for this project** and click **Continue**
+<p align="center"><img src="./asset/step2.PNG" width="400" alt="Step 2" title=""></p>
+
+* Choose account and click **Create project**
+<p align="center"><img src="./asset/step3.PNG" width="400" alt="Step 3" title=""></p>
