@@ -12,5 +12,5 @@
 > flutter pub pub add google_sign_in
 
 * (Or) Manually add this line to pubspec.yaml:
-> dependencies:
->>  google_sign_in: ^5.0.2
+> dependencies:<br>
+> &nbsp;&nbsp;google_sign_in: ^5.0.2
